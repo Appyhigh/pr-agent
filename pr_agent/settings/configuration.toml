@@ -4,8 +4,9 @@
 
 [config]
 # models
-model="ollama/llama3"
-fallback_models=["o4-mini"]
+model="qwen3.5:9b"
+fallback_models=["qwen3.5:4b"]
+custom_model_max_tokens = 128000
 #model_reasoning="o4-mini" # dedicated reasoning model for self-reflection
 #model_weak="gpt-4o" # optional, a weaker model to use for some easier tasks
 # CLI
