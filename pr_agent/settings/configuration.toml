@@ -7,6 +7,7 @@
 model="ollama/qwen3-coder-next"
 fallback_models=["ollama/qwen3.5"]
 custom_model_max_tokens = 128000
+add_repo_metadata = true
 #model_reasoning="o4-mini" # dedicated reasoning model for self-reflection
 #model_weak="gpt-4o" # optional, a weaker model to use for some easier tasks
 # CLI
